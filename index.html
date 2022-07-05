@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,38 @@
     <title>Exercicio: Manipulando o DOM</title>
     <script src="JS/m_dom.js"></script>
 </head>
+
 <body>
+    <h3>Página inicial</h3>
+    <form>
+        <p>
+            <label>Número da residência: </label>
+            <input type="text" name="numero">
+        </p>
+
+        <p>
+            <label>Bairro: </label>
+            <input type="text" name="bairro">
+        </p>
+
+        <p>
+            <label>Cidade: </label>
+            <input type="text" name="cidade">
+        </p>
+
+        <p>
+            <label>Área: </label>
+            <input type="text" name="area">
+        </p>
+
+        <button onclick="SalvarCasa()" type="button">Salvar</button>
+    </form>
+
     
+
+
+    <ul id="lista-casa"></ul>
+
 </body>
+
 </html>
